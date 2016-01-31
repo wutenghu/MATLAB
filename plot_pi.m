@@ -14,9 +14,9 @@ hold on
 for i=1:TestNum
     if X(i,1)^2+X(i,2)^2<=1
         CircleNum=CircleNum+1;
-        plot(X(i,1),X(i,2),'r.')
+        plot(X(i,1),X(i,2),'r .')
     else
-        plot(X(i,1),X(i,2),'bo')
+        plot(X(i,1),X(i,2),'b o')
     end
     
 end
